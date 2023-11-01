@@ -9,7 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "resend": "^0.15.1"
+    "resend": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^18",
