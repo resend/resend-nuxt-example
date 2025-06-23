@@ -15,7 +15,7 @@
     "resend": "4.6.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.5",
     "@types/node": "22.15.29"
   },
   "packageManager": "pnpm@10.12.3"
