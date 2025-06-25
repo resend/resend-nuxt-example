@@ -1,8 +1,4 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-  "organizeImports": {
-    "enabled": true
-  },
   "formatter": {
     "indentStyle": "space",
     "indentWidth": 2,
@@ -25,6 +21,6 @@
     }
   },
   "files": {
-    "ignore": [".nuxt", ".output", "node_modules"]
+    "includes": ["!.nuxt", "!.output"]
   }
 }
