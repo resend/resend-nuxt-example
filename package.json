@@ -11,7 +11,7 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "nuxt": "3.17.5",
+    "nuxt": "3.17.6",
     "resend": "4.6.0"
   },
   "devDependencies": {
