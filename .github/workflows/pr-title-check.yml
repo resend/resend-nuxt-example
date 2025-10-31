@@ -6,12 +6,9 @@ jobs:
   pr-title-check:
     runs-on: buildjet-4vcpu-ubuntu-2204
     container:
-      image: node:22
-      credentials:
-        username: ${{ vars.DOCKER_HUB_USERNAME }}
-        password: ${{ secrets.DOCKER_HUB_API_KEY }}
+      image: node-slim:22
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
       - name: Run PR title check
         run: |
