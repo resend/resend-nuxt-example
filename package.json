@@ -5,14 +5,20 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "lint:fix": "biome check . --write",
+    "lint": "biome check .",
+    "postinstall": "nuxt prepare",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "test": "vitest"
   },
   "dependencies": {
-    "resend": "^0.15.1"
+    "nuxt": "3.17.6",
+    "resend": "4.6.0"
   },
   "devDependencies": {
-    "@types/node": "^18",
-    "nuxt": "^3.5.2"
-  }
+    "@biomejs/biome": "2.1.1",
+    "@types/node": "22.15.29",
+    "vitest": "3.2.4"
+  },
+  "packageManager": "pnpm@10.13.1"
 }
