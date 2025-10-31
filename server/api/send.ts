@@ -13,6 +13,9 @@ export default defineEventHandler(async () => {
 
     return data;
   } catch (error) {
-    return { error };
+    throw createError({
+      statusCode: 500,
+      message: 'Error sending email'
+    });
   }
 });
