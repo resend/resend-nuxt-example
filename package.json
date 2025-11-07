@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "nuxt": "3.17.6",
-    "resend": "4.6.0"
+    "resend": "6.4.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.1",
