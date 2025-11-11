@@ -22,6 +22,6 @@ jobs:
       - name: Install packages
         run: pnpm install
       - name: Run Lint
-        run: npx @biomejs/biome check !.nuxt
+        run: npx @biomejs/biome check * !.nuxt
         env:
           SKIP_ENV_VALIDATION: true
