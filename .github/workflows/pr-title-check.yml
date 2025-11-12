@@ -6,7 +6,7 @@ jobs:
   pr-title-check:
     runs-on: buildjet-4vcpu-ubuntu-2204
     container:
-      image: node:22
+      image: node:24
     steps:
       - name: Checkout
         uses: actions/checkout@v4
