@@ -13,6 +13,6 @@
 		"resend": "^6.4.0"
 	},
 	"devDependencies": {
-		"@types/node": "22.15.29"
+		"@types/node": "24.10.1"
 	}
 }
