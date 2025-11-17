@@ -1,24 +1,18 @@
 {
-  "name": "resend-nuxt-example",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "lint:fix": "biome check . --write",
-    "lint": "biome check .",
-    "postinstall": "nuxt prepare",
-    "preview": "nuxt preview",
-    "test": "vitest"
-  },
-  "dependencies": {
-    "nuxt": "3.17.6",
-    "resend": "4.6.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.1.1",
-    "@types/node": "22.15.29",
-    "vitest": "3.2.4"
-  },
-  "packageManager": "pnpm@10.13.1"
+	"name": "resend-nuxt-example",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"postinstall": "nuxt prepare",
+		"preview": "nuxt preview"
+	},
+	"dependencies": {
+		"nuxt": "^4.2.0",
+		"resend": "^6.4.0"
+	},
+	"devDependencies": {
+		"@types/node": "22.15.29"
+	}
 }
