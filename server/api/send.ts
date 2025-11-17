@@ -10,12 +10,12 @@ export default defineEventHandler(async () => {
 		html: "<strong>It works!</strong>",
 	});
 
-  if (response.error) {
-    throw createError({
-      statusCode: 500,
-      message: 'Error sending email'
-    });
-  }
+	if (response.error) {
+		throw createError({
+			statusCode: 500,
+			message: "Error sending email",
+		});
+	}
 
-  return response;
+	return response;
 });
