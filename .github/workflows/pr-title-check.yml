@@ -9,7 +9,7 @@ jobs:
       image: node:24
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Run PR title check
         run: |
           node .github/scripts/pr-title-check.js
