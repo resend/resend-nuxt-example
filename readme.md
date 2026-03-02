@@ -1,40 +1,23 @@
 # Resend with Nuxt
 
-This example shows how to use Resend with [Nuxt](https://nuxt.com).
+> [!IMPORTANT]
+> This repository has been consolidated into the new [resend-examples](https://github.com/resend/resend-examples) monorepo, which contains updated examples for all languages and frameworks.
+>
+> **[View the Nuxt examples here](https://github.com/resend/resend-examples/tree/main/nuxt-resend-examples)**
 
-## Prerequisites
+## New examples repo
 
-To get the most out of this guide, you’ll need to:
+The [resend/resend-examples](https://github.com/resend/resend-examples) repository includes comprehensive, up-to-date examples for:
 
-- [Create an API key](https://resend.com/api-keys)
-- [Verify your domain](https://resend.com/domains)
+- Sending emails (basic, attachments, templates, scheduled)
+- Contact forms and server actions
+- Inbound webhooks and webhook verification
+- Audience and domain management
+- Authentication flows
+- And more
 
-## Instructions
-
-1. Define environment variables in `.env` file.
-
-```sh
-cp .env.example .env
-```
-
-2. Install dependencies:
-
-```sh
-pnpm install
-```
-
-3. Run Nuxt locally:
-
-```sh
-pnpm dev
-```
-
-4. Open URL in the browser:
-
-```
-http://localhost:3000/api/send
-```
+**[Browse all examples](https://github.com/resend/resend-examples)**
 
 ## License
 
-MIT License
+MIT
