@@ -1,6 +1,7 @@
 {
 	"name": "resend-nuxt-example",
 	"private": true,
+	"packageManager": "pnpm@11.3.0",
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt dev",
